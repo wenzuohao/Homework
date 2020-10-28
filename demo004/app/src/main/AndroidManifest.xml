@@ -9,7 +9,23 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".LoginForgetActivity" android:exported="true" ></activity>
+        <activity android:name=".RegisterActivity" android:exported="true"></activity>
+        <activity
+            android:name=".TextWriteActivity"
+            android:exported="true" />
+        <activity android:name=".TextReadActivity" />
+        <activity android:name=".ShareWriteActivity"  android:exported="true"/>
+        <activity android:name=".ShareReadActivity" />
+        <activity android:name=".SQLiteWriteActivity"  android:exported="true" />
+        <activity android:name=".SQLiteReadActivity" />
+        <activity android:name=".SDCardInfoActivity" />
+        <activity android:name=".ImageWriteActivity" android:exported="true"/>
+        <activity android:name=".ImageReadActivity" />
+        <activity android:name=".AppWriteActivity"  android:exported="true"/>
+        <activity android:name=".AppReadActivity" />
+        <activity
+            android:name=".LoginForgetActivity"
+            android:exported="true" />
         <activity
             android:name=".SpinnerActivity"
             android:exported="true" />

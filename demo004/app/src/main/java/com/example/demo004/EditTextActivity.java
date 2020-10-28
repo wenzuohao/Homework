@@ -29,9 +29,9 @@ public class EditTextActivity extends AppCompatActivity {
         // 给et_hint编辑框添加文本变化监听器
         et_hint.addTextChangedListener(new JumpTextWatcher(et_hint, et_border));
         // 从布局文件中获取名叫et_phone的手机号码编辑框
-        EditText et_phone = findViewById(R.id.et_phone);
+        EditText et_phone = findViewById(R.id.id_phone);
         // 从布局文件中获取名叫et_password的密码编辑框
-        EditText et_password = findViewById(R.id.et_password);
+        EditText et_password = findViewById(R.id.id_password);
         // 给手机号码编辑框添加文本变化监听器
         et_phone.addTextChangedListener(new HideTextWatcher(et_phone));
         // 给密码编辑框添加文本变化监听器

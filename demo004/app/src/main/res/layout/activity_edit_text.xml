@@ -43,7 +43,7 @@
         app:layout_constraintTop_toBottomOf="@+id/et_hint" />
 
     <EditText
-        android:id="@+id/et_phone"
+        android:id="@+id/id_phone"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="5dp"
@@ -60,7 +60,7 @@
         app:layout_constraintTop_toBottomOf="@+id/et_border" />
 
     <EditText
-        android:id="@+id/et_password"
+        android:id="@+id/id_password"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="5dp"
@@ -74,7 +74,7 @@
         android:maxLength="6"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/et_phone" />
+        app:layout_constraintTop_toBottomOf="@+id/id_phone" />
 
     <AutoCompleteTextView
         android:id="@+id/ac_text"
@@ -89,5 +89,5 @@
         android:hint="输入first或者second,5个字符触发"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/et_password" />
+        app:layout_constraintTop_toBottomOf="@+id/id_password" />
 </androidx.constraintlayout.widget.ConstraintLayout>

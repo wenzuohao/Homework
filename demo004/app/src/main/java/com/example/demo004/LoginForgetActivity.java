@@ -78,7 +78,7 @@ public class LoginForgetActivity extends AppCompatActivity implements View.OnCli
         } else if (v.getId() == R.id.btn_confirm) { // 点击了“确定”按钮
             String password_first = et_password_first.getText().toString();
             String password_second = et_password_second.getText().toString();
-            if (password_first.length() < 6 || password_second.length() < 6) {
+            if (password_first.length() < 8 || password_second.length() < 6) {
                 Toast.makeText(this, "请输入正确的新密码", Toast.LENGTH_SHORT).show();
                 return;
             }
