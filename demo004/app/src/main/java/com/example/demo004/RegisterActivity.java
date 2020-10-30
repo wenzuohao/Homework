@@ -88,8 +88,8 @@ public class RegisterActivity extends AppCompatActivity implements View.OnClickL
                 Toast.makeText(this, "请输入正确的手机号", Toast.LENGTH_SHORT).show();
                 return;
             }
-            if (password.length() < 8) { //密码需要6位
-                Toast.makeText(this, "请输入6位密码", Toast.LENGTH_SHORT).show();
+            if (password.length() < 8) { //密码需要8位
+                Toast.makeText(this, "请输入8位密码", Toast.LENGTH_SHORT).show();
                 return;
             }
             Toast.makeText(this, "注册成功", Toast.LENGTH_SHORT).show();
