@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.demo010"
     android:installLocation="auto">
-
+//线性布局
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -60,11 +60,11 @@
                 android:name="android.app.searchable"
                 android:resource="@xml/searchable" />
         </activity>
-        <activity android:name=".RecyclerStaggeredActivity" />
-        <activity android:name=".RecyclerLinearActivity" />
-        <activity android:name=".RecyclerGridActivity" />
-        <activity android:name=".RecyclerDynamicActivity" />
-        <activity android:name=".RecyclerCombineActivity" />
+        <activity android:name=".RecyclerStaggeredActivity" android:exported="true" />
+        <activity android:name=".RecyclerLinearActivity" android:exported="true"/>
+        <activity android:name=".RecyclerGridActivity" android:exported="true"/>
+        <activity android:name=".RecyclerDynamicActivity" android:exported="true"/>
+        <activity android:name=".RecyclerCombineActivity" android:exported="true"/>
         <activity
             android:name=".OverflowMenuActivity"
             android:exported="true"

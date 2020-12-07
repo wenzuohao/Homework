@@ -1,18 +1,18 @@
 package com.example.demo010;
 
+import android.os.Bundle;
+
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.DefaultItemAnimator;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
-
-import android.os.Bundle;
 
 import com.example.demo010.adapter.RecyclerLinearAdapter;
 import com.example.demo010.bean.GoodsInfo;
 import com.example.demo010.widget.SpacesItemDecoration;
 
 public class RecyclerLinearActivity extends AppCompatActivity {
-
+//线性布局
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
